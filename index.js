@@ -8,5 +8,6 @@ function callback(element, index, array){
 
 function iterate(callback){
   var arr = ["cat","dog", "mouse"]
-  
+  arr.forEach(callback)
+  return arr
 }
