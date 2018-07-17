@@ -5,3 +5,8 @@ function iterativeLog(arr, callback){
 function callback(element, index, array){
   console.log(`${index}: ${element}`)
 }
+
+function iterate(callback){
+  var arr = ["cat","dog", "mouse"]
+  
+}
